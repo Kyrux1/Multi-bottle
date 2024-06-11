@@ -1,0 +1,246 @@
+Sure, here's the completed HTML code with the requested changes:
+            
+            ```html
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Multi-Drink Bottle</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        line-height: 1.6;
+                        margin: 0;
+                        padding: 0;
+                        background: linear-gradient(to bottom, skyblue 50%, white 50%);
+                        position: relative;
+                    }
+                    .cloud {
+                        background-image: url('cloud.png'); /* Path to cloud image */
+                        background-size: cover;
+                        width: 200px;
+                        height: 150px;
+                        position: absolute;
+                        top: 20px;
+                        left: 50px;
+                    }
+                    .container {
+                        width: 80%;
+                        margin: auto;
+                        overflow: hidden;
+                    }
+                    header {
+                        background: #333;
+                        color: #fff;
+                        padding-top: 30px;
+                        min-height: 70px;
+                        border-bottom: #0779e4 3px solid;
+                    }
+                    header a {
+                        color: #fff;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        font-size: 16px;
+                    }
+                    header ul {
+                        padding: 0;
+                        list-style: none;
+                    }
+                    header li {
+                        float: left;
+                        display: inline;
+                        padding: 0 20px 0 20px;
+                    }
+                    header #branding {
+                        float: left;
+                    }
+                    header #branding h1 {
+                        margin: 0;
+                    }
+                    header nav {
+                        float: right;
+                        margin-top: 10px;
+                    }
+                    header .highlight, header .current a {
+                        color: #0779e4;
+                        font-weight: bold;
+                    }
+                    header a:hover {
+                        color: #cccccc;
+                        font-weight: bold;
+                    }
+                    .banner {
+                        background: url('banner.jpg') no-repeat center center/cover;
+                        height: 300px;
+                        color: #fff;
+                        text-align: center;
+                        padding-top: 100px;
+                    }
+                    .banner h1 {
+                        font-size: 50px;
+                        margin: 0;
+                    }
+                    section {
+                        padding: 20px 0;
+                        overflow: hidden;
+                    }
+                    .content {
+                        margin: 15px 0;
+                        padding: 20px;
+                        background: #fff;
+                        box-shadow: 0 0 10px #cccccc;
+                    }
+                    .footer {
+                        background: #333;
+                        color: #fff;
+                        text-align: center;
+                        padding: 10px 0;
+                        margin-top: 20px;
+                    }
+                    .footer p {
+                        margin: 0;
+                    }
+                    .choose-container {
+                        text-align: center;
+                        margin-top: 20px;
+                    }
+                    .choose-btn {
+                        background-color: #0779e4;
+                        color: white;
+                        border: none;
+                        padding: 10px 20px;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        font-size: 16px;
+                        margin-top: 10px;
+                        cursor: pointer;
+                    }
+                </style>
+            </head>
+            <body>
+                <header>
+                    <div class="container">
+                        <div id="branding">
+                            <h1>Multi-Drink Bottle</h1>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li class="current"><a href="#home">Home</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#features">Product Features</a></li>
+                                <li><a href="#care">Customer Care</a></li>
+                                <li><a href="#pricing">Customization & Pricing</a></li>
+                                <li><a href="#why-choose">Why Choose Us?</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="#order">Order Now</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+            
+                <section id="home" class="banner">
+                    <div class="container">
+                        <h1>Double Drink, Double the Enjoyment</h1>
+                        <p>Discover the revolutionary Multi-Drink Bottle</p>
+                    </div>
+                </section>
+            
+                <section id="about" class="container">
+                    <div class="content">
+                        <h2>About Us</h2>
+                        <p>We've all experienced the frustration of wanting to hydrate with two different drinks but finding it inconvenient to carry multiple bottles or cups. Introducing the revolutionary solution for your hydration needs: the Multi-Drink Bottle.</p>
+                        <p>Hello Dolphins! My name is Kian, and together with my partner Hlib, we have created a revolutionary solution for your hydration needs – the Multi-Drink Bottle. Our innovative product is designed to offer the convenience of carrying two different beverages in one bottle, maintaining their temperatures for up to 26 hours. We are committed to providing an eco-friendly, versatile, and high-quality hydration solution for active individuals.</p>
+                    </div>
+                </section>
+            
+                <section id="features" class="container">
+                    <div class="content">
+                        <h2>Product Features</h2>
+                        <ul>
+                            <li><strong>Dual Compartments:</strong> Each holds 450 ml for a total of 900 ml.</li>
+                            <li><strong>Insulated Design:</strong> Keeps beverages at their desired temperature for up to 26 hours.</li>
+                            <li><strong>Eco-Friendly:</strong> Made from 100% recycled materials.</li>
+                            <li><strong>Convenient Straw:</strong> Removable and easy to clean.</li>
+                            <li><strong>Spill-Proof:</strong> Comes with an optional cap to secure your bottle during walks or while it sits in your bag.</li>
+                            <li><strong>Easy Cleaning:</strong> Includes a small cleaning kit with brushes and is also dishwasher safe.</li>
+                        </ul>
+                    </div>
+                </section>
+            
+                <section id="care" class="container">
+                    <div class="content">
+                        <h2>Customer Care</h2>
+                        <p>We offer replacement parts like the cap and straw. Enjoy our free replacement policy within the first 3 days after purchase. Detailed cleaning instructions are provided with every bottle, including a cleaning kit with brushes. The bottle is also dishwasher safe for your convenience.</p>
+                    </div>
+                </section>
+            
+                <section id="pricing" class="container">
+                    <div class="content">
+                        <h2>Customization & Pricing</h2>
+                        <ul>
+                            <li><strong>Material Options:</strong>
+                                <ul>
+                                    <li>Stainless Steel: .99</li>
+                                    <li>Aluminum: .99</li>
+                                </ul>
+                              <li><strong>Material Options:</strong>
+                                                <ul>
+                                                    <li>Stainless Steel: .99</li>
+                                                    <li>Aluminum: .99</li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Customization Options:</strong>
+                                                <ul>
+                                                    <li>Additional Colors:  each</li>
+                                                    <li>Custom Art: </li>
+                                                </ul>
+                                            </li>
+                                            <li><strong>Shipping Costs:</strong> - depending on location</li>
+                                        </ul>
+                                        <p>Our product’s quality, sustainability, and value are second to none.</p>
+                                    </div>
+                                </section>
+                            
+                                <section id="why-choose" class="container">
+                                    <div class="content">
+                                        <h2>Why Choose Us?</h2>
+                                        <p>The Multi-Drink Bottle is ideal for athletes, busy professionals, and anyone who values convenience and sustainability. Our bottle is eco-friendly and designed for ease of use and long-lasting performance.</p>
+                                        <p>Don't just take our word for it – see what our customers have to say!</p>
+                                    </div>
+                                </section>
+                            
+                                <section id="contact" class="container">
+                                    <div class="content">
+                                        <h2>Contact Us</h2>
+                                        <p>Website: <a href="http://www.multidrinkbottle.com">www.multidrinkbottle.com</a></p>
+                                        <p>Phone: 1-800-DRINK-2GO</p>
+                                        <p>Email: <a href="mailto:info@multidrinkbottle.com">info@multidrinkbottle.com</a></p>
+                                        <p>Feel free to reach out to us for any inquiries or feedback.</p>
+                                    </div>
+                                </section>
+                            
+                                <section id="order" class="container">
+                                    <div class="content">
+                                        <h2>Order Now</h2>
+                                        <p>Ready to enjoy the convenience of the Multi-Drink Bottle?</p>
+                                        <p>Please choose the material option:</p>
+                                        <p>
+                                            <a href="http://www.multidrinkbottle.com/order?material=aluminum" style="background: #0779e4; color: #fff; padding: 10px 20px; text-decoration: none; margin-right: 10px;">Aluminum</a>
+                                            <a href="http://www.multidrinkbottle.com/order?material=stainless_steel" style="background: #0779e4; color: #fff; padding: 10px 20px; text-decoration: none;">Stainless Steel</a>
+                                        </p>
+                                        <p>Customization Options:</p>
+                                        <label><input type="checkbox" name="customize" value="yes"> I want to customize it</label><br>
+                                        <label><input type="checkbox" name="add_picture" value="yes"> I want to add a picture</label><br>
+                                        <p>Check out our available discounts and special offers!</p>
+                                    </div>
+                                </section>
+                                
+                            
+                                <footer class="footer">
+                                    <p>&copy; 2024 Multi-Drink Bottle. All Rights Reserved.</p>
+                                </footer>
+                            </body>
+                            </html>
+                            
